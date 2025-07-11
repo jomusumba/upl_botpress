@@ -1,0 +1,58 @@
+/* styles.css */
+
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.nav-link i {
+  margin-right: 5px;
+}
+
+/* Header Carousel */
+header {
+  position: relative;
+}
+.carousel-item img {
+  height: 80vh;
+  object-fit: cover;
+}
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+/* Sections */
+section {
+  padding: 60px 0;
+}
+section h2 {
+  margin-bottom: 40px;
+  font-weight: 700;
+}
+
+/* Cards */
+.card {
+  border: none;
+  transition: transform 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Footer */
+.footer {
+  background: #000;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .carousel-item img {
+    height: 50vh;
+  }
+}
